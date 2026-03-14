@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Analyst Terminal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="field-log">
+      <h1>Field Log &mdash; Market Operations Desk</h1>
+      <p>
+        Markets never sleep. Panels shuffle, signals blink, and numbers drift like currents. Watch long enough and the terminal whispers when something unusual starts
+        forming.
+      </p>
+    </section>
+
+    <div id="whisper"></div>
+    <div id="terminal">
+      <div id="p1" class="panel">
+        <h3>LIVE FEED + TREND</h3>
+        <div id="feed-content"></div>
+      </div>
+      <div id="p2" class="panel">
+        <h3>SIGNALS</h3>
+        <div id="signal-content"></div>
+      </div>
+      <div id="p3" class="panel">
+        <h3>LOGS</h3>
+        <div id="log-content"></div>
+      </div>
+    </div>
+    <div id="ticker"></div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
